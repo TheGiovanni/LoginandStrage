@@ -53,6 +53,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+        
 //        var mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
 //        val fireLogBundle = Bundle()
 //        fireLogBundle.putString("TEST", "FireSample app MainActivity.onCreate() is called.")
