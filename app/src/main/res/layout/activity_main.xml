@@ -16,8 +16,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.478"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/passwordText"/>
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.192"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/passwordText"
+            app:layout_constraintVertical_bias="0.497"/>
     <Button
             android:text="selectPhoto"
             android:layout_width="100dp"
@@ -58,5 +59,15 @@
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="8dp"/>
+    <com.google.android.gms.common.SignInButton
+            android:text="google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleButton" app:layout_constraintStart_toEndOf="@+id/loginButton"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/passwordText" app:layout_constraintHorizontal_bias="0.548"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.48"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
